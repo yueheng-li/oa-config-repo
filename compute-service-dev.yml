@@ -4,8 +4,6 @@ spring:
 ---
 spring:
   profiles: cloud
-server:
-  port: 2222
 eureka:
   client:
     serviceUrl:
@@ -15,9 +13,7 @@ spring:
   profiles: dev
   application: 
     name : compute-service
-server:
-  port: 7773
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://xxxxx:8761/eureka/
